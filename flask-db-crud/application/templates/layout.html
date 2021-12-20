@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Santas Elves - {{ title }}</title>
+    </head>
+    <body>
+        <navbar>
+            <a href="/">Home</a>
+            <a href="/create_elf">Add New Elf</a>
+        </navbar>
+        <h1>
+            Santas Elves - {{ title }}
+        </h1>
+        {% block body %}
+        {% endblock body %}
+    </body>
+</html>

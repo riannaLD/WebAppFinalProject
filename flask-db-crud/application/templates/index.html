@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+<p>
+    Here are the elves in the system!
+</p>
+{% for task in all_tasks %}
+    <p>
+        Task no. #{{ elf.id }}<br>
+        {{ elf.description }}<br>
+    </p>
+{% endfor %}
+{% endblock body %} 
